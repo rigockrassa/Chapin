@@ -1,0 +1,38 @@
+{
+    "name": "com.juegoschapin.calidad",
+    "displayName": "Chapin",
+    "version": "1.0.0",
+    "description": "A sample Apache Cordova application that responds to the deviceready event.",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Apache Cordova Team",
+    "license": "Apache-2.0",
+    "dependencies": {
+        "cordova-admob": "^4.2.1",
+        "cordova-android": "^7.1.2",
+        "cordova-connectivity-monitor": "^1.2.2",
+        "cordova-play-services-version-adapter": "^1.0.1",
+        "cordova-plugin-facebook4": "3.2.0",
+        "cordova-plugin-google-analytics": "^1.8.6",
+        "cordova-plugin-whitelist": "^1.3.3"
+    },
+    "cordova": {
+        "plugins": {
+            "cordova-plugin-whitelist": {},
+            "cordova-plugin-facebook4": {
+                "APP_ID": "263432487855391",
+                "APP_NAME": "Chapin",
+                "FACEBOOK_ANDROID_SDK_VERSION": "4.38.1"
+            },
+            "cordova-admob": {},
+            "cordova-plugin-google-analytics": {
+                "GMS_VERSION": "11.0.1"
+            }
+        },
+        "platforms": [
+            "android"
+        ]
+    }
+}

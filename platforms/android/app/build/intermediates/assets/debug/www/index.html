@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+  <html lang ="en">
+    <head>
+
+        <meta charset="utf-8">
+        <title>100% Chapin</title>
+        <meta name="description" content="">
+        
+        <!--meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/main.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script type = "text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script-->
+        	
+        <meta name = "viewport" content = "width = device-width, initial-scale = 1">
+      	<link rel = "stylesheet" href = "https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+      	<link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" type="text/css" href="css/jQMProgressBar.css" />
+        <script src = "https://code.jquery.com/jquery-1.12.1.min.js"></script>
+      	<script src = "https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+        <script type="text/javascript" src="js/jQMProgressBar.js"></script>
+  	</head>
+    <body>
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+    <div data-role="page" id="demo-page" data-url="demo-page">
+    	<div data-role="header" data-theme="b">
+    		<h1 class="chapin" style="margin: 00;">0% Chapin</h1>
+    		<a href="#left-panel" data-icon="carat-r" data-iconpos="notext" data-shadow="false" data-iconshadow="false" class="ui-nodisc-icon">Open left panel</a>
+    	</div>
+    	<div role="main" class="ui-content">
+	      <div class="container">
+	        <div class="row">
+	          <div class="mainArea col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
+	          </div>
+	        </div>
+	      </div>
+	    </div>
+		<div data-role="panel" id="left-panel" data-theme="b">
+			<p>Ranking.</p>
+			<a href="#" data-rel="close" class="ui-btn ui-corner-all ui-shadow ui-mini ui-btn-inline ui-icon-delete ui-btn-icon-left ui-btn-right">Close</a>
+			<div id="fbButton" class="event listening button" onclick="login();">Login with Facebook</div>
+            <!--div class="event listening button" onclick="showDialog();">Show Dialog with Facebook</div>
+            <div class="event listening button" onclick="apiTest();">Test API with Facebook</div>
+            <div class="event listening button" onclick="getAccessToken();">Get access token with Facebook</div>
+            <div class="event listening button" onclick="logPurchase();">Log Purchase Event</div>
+            <div class="event listening button" onclick="logEvent();">Log Regular Event</div>
+            <div class="event listening button" onclick="getStatus();">Get login status with Facebook</div>
+            <div class="event listening button" onclick="logout();">Logout with Facebook</div-->
+            <table id="fbProfile" style="display:none">
+                <tr>
+                    <td>
+                        <img src="" alt="Avatar" id="fbPicture" style="border-radius: 50%;">
+                    </td>
+                    <td>
+                        <p id="fbName"></p>
+                    </td>
+                </tr>
+            </table>
+		</div>
+    </div>
+
+		<!-- Cordova -->
+		<script src="cordova.js"></script>
+        <script src="js/main.js"></script>
+        <script src="js/database.js"></script>
+        <script type="text/javascript" src="js/facebookConnectPlugin.js"></script>
+        <script src="js/facebook.js"></script>
+        <script src="js/admob.js"></script>
+
+    </body>
+  </html>

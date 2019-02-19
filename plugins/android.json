@@ -1,0 +1,35 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "com.juegoschapin.calidad"
+    },
+    "cordova-plugin-facebook4": {
+      "APP_ID": "263432487855391",
+      "APP_NAME": "Chapin",
+      "FACEBOOK_ANDROID_SDK_VERSION": "4.38.1",
+      "PACKAGE_NAME": "com.juegoschapin.calidad"
+    },
+    "cordova-admob": {
+      "PACKAGE_NAME": "com.juegoschapin.calidad"
+    },
+    "cordova-plugin-google-analytics": {
+      "GMS_VERSION": "11.0.1",
+      "PACKAGE_NAME": "com.juegoschapin.calidad"
+    }
+  },
+  "dependent_plugins": {
+    "cordova-connectivity-monitor": {
+      "PACKAGE_NAME": "com.juegoschapin.calidad"
+    },
+    "cordova-play-services-version-adapter": {
+      "PACKAGE_NAME": "com.juegoschapin.calidad"
+    }
+  }
+}

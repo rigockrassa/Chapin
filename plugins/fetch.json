@@ -1,0 +1,53 @@
+{
+  "cordova-plugin-whitelist": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-whitelist@1"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "cordova-plugin-facebook4": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-facebook4"
+    },
+    "is_top_level": true,
+    "variables": {
+      "APP_ID": "263432487855391",
+      "APP_NAME": "Chapin"
+    }
+  },
+  "cordova-admob": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-admob"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "cordova-connectivity-monitor": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-connectivity-monitor"
+    },
+    "is_top_level": false,
+    "variables": {}
+  },
+  "cordova-play-services-version-adapter": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-play-services-version-adapter"
+    },
+    "is_top_level": false,
+    "variables": {}
+  },
+  "cordova-plugin-google-analytics": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-google-analytics"
+    },
+    "is_top_level": true,
+    "variables": {}
+  }
+}
